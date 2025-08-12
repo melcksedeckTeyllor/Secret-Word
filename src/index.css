@@ -8,23 +8,24 @@ body {
     Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 4, 1) 0%,
-    rgba(116, 116, 6, 1) 100%
+    rgba(12, 164, 198, 1) 0%,
+    rgba(116, 21, 6, 1) 100%
   );
+  background-attachment: fixed;
 }
 
 button {
   cursor: pointer;
   font-size: 1.5em;
   padding: 0.5em 1em;
-  border-radius: 0.5em;
-  border: none;
+  border-radius: 1em;
+  border: 1px solid transparent;
   background-color: #fff;
   color: #000;
 
   &:hover {
     background-color:transparent;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     color: #fff;
   }
 }

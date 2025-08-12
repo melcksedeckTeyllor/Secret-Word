@@ -1,9 +1,12 @@
 import React from 'react'
 import './GameOver.css'
 
-function GameOver() {
+function GameOver({retry}) {
   return (
-    <div>GameOver</div>
+    <>
+      <h1>Game Over</h1>
+      <button onClick={retry}>Resetar Jogo</button>
+    </>
   )
 }
 
